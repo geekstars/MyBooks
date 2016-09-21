@@ -8,20 +8,104 @@
 
 /* Begin PBXBuildFile section */
 		F5EF489A1D8B899C00388199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF48991D8B899C00388199 /* AppDelegate.swift */; };
-		F5EF489C1D8B899C00388199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF489B1D8B899C00388199 /* ViewController.swift */; };
 		F5EF489F1D8B899C00388199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EF489D1D8B899C00388199 /* Main.storyboard */; };
 		F5EF48A11D8B899C00388199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48A01D8B899C00388199 /* Assets.xcassets */; };
 		F5EF48A41D8B899C00388199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48A21D8B899C00388199 /* LaunchScreen.storyboard */; };
+		F5EF48AC1D8B8B3A00388199 /* ViewBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF48AB1D8B8B3A00388199 /* ViewBooks.swift */; };
+		F5EF48D51D8B8C8F00388199 /* doc.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48AE1D8B8C8F00388199 /* doc.png */; };
+		F5EF48D61D8B8C8F00388199 /* coexistcrane.docx in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B01D8B8C8F00388199 /* coexistcrane.docx */; };
+		F5EF48D71D8B8C8F00388199 /* coexistcrane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B11D8B8C8F00388199 /* coexistcrane.jpg */; };
+		F5EF48D81D8B8C8F00388199 /* darkkisssylviaday.docx in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B21D8B8C8F00388199 /* darkkisssylviaday.docx */; };
+		F5EF48D91D8B8C8F00388199 /* darkkisssylviaday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B31D8B8C8F00388199 /* darkkisssylviaday.jpg */; };
+		F5EF48DA1D8B8C8F00388199 /* isthislove.docx in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B41D8B8C8F00388199 /* isthislove.docx */; };
+		F5EF48DB1D8B8C8F00388199 /* isthislove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B51D8B8C8F00388199 /* isthislove.jpg */; };
+		F5EF48DC1D8B8C8F00388199 /* lovelikethishubbard.docx in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B61D8B8C8F00388199 /* lovelikethishubbard.docx */; };
+		F5EF48DD1D8B8C8F00388199 /* lovelikethishubbard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B71D8B8C8F00388199 /* lovelikethishubbard.jpg */; };
+		F5EF48DE1D8B8C8F00388199 /* lumberlacewards.docx in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B81D8B8C8F00388199 /* lumberlacewards.docx */; };
+		F5EF48DF1D8B8C8F00388199 /* lumberlacewards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48B91D8B8C8F00388199 /* lumberlacewards.jpg */; };
+		F5EF48E01D8B8C8F00388199 /* Lập trình iOS Objective-C.html in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48BB1D8B8C8F00388199 /* Lập trình iOS Objective-C.html */; };
+		F5EF48E11D8B8C8F00388199 /* Lập trình iOS Objective-C.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48BC1D8B8C8F00388199 /* Lập trình iOS Objective-C.jpg */; };
+		F5EF48E21D8B8C8F00388199 /* html.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48BD1D8B8C8F00388199 /* html.png */; };
+		F5EF48E31D8B8C8F00388199 /* abrieferhistory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48BF1D8B8C8F00388199 /* abrieferhistory.jpg */; };
+		F5EF48E41D8B8C8F00388199 /* abrieferhistory.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C01D8B8C8F00388199 /* abrieferhistory.pdf */; };
+		F5EF48E51D8B8C8F00388199 /* aspoofonsexdonwireman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C11D8B8C8F00388199 /* aspoofonsexdonwireman.jpg */; };
+		F5EF48E61D8B8C8F00388199 /* aspoofonsexdonwireman.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C21D8B8C8F00388199 /* aspoofonsexdonwireman.pdf */; };
+		F5EF48E71D8B8C8F00388199 /* barrysworldjenvey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C31D8B8C8F00388199 /* barrysworldjenvey.jpg */; };
+		F5EF48E81D8B8C8F00388199 /* barrysworldjenvey.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C41D8B8C8F00388199 /* barrysworldjenvey.pdf */; };
+		F5EF48E91D8B8C8F00388199 /* foreigneduwilliam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C51D8B8C8F00388199 /* foreigneduwilliam.jpg */; };
+		F5EF48EA1D8B8C8F00388199 /* foreigneduwilliam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C61D8B8C8F00388199 /* foreigneduwilliam.pdf */; };
+		F5EF48EB1D8B8C8F00388199 /* gonewithtrash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C71D8B8C8F00388199 /* gonewithtrash.jpg */; };
+		F5EF48EC1D8B8C8F00388199 /* gonewithtrash.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C81D8B8C8F00388199 /* gonewithtrash.pdf */; };
+		F5EF48ED1D8B8C8F00388199 /* gospelbuckydennis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48C91D8B8C8F00388199 /* gospelbuckydennis.jpg */; };
+		F5EF48EE1D8B8C8F00388199 /* gospelbuckydennis.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48CA1D8B8C8F00388199 /* gospelbuckydennis.pdf */; };
+		F5EF48EF1D8B8C8F00388199 /* oddjobsbowling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48CB1D8B8C8F00388199 /* oddjobsbowling.jpg */; };
+		F5EF48F01D8B8C8F00388199 /* oddjobsbowling.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48CC1D8B8C8F00388199 /* oddjobsbowling.pdf */; };
+		F5EF48F11D8B8C8F00388199 /* oneclownshortwright.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48CD1D8B8C8F00388199 /* oneclownshortwright.jpg */; };
+		F5EF48F21D8B8C8F00388199 /* oneclownshortwright.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48CE1D8B8C8F00388199 /* oneclownshortwright.pdf */; };
+		F5EF48F31D8B8C8F00388199 /* questingromana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48CF1D8B8C8F00388199 /* questingromana.jpg */; };
+		F5EF48F41D8B8C8F00388199 /* questingromana.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48D01D8B8C8F00388199 /* questingromana.pdf */; };
+		F5EF48F51D8B8C8F00388199 /* thedistancetravelled.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48D11D8B8C8F00388199 /* thedistancetravelled.jpg */; };
+		F5EF48F61D8B8C8F00388199 /* thedistancetravelled.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48D21D8B8C8F00388199 /* thedistancetravelled.pdf */; };
+		F5EF48F71D8B8C8F00388199 /* pdf.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48D31D8B8C8F00388199 /* pdf.png */; };
+		F5EF48F81D8B8C8F00388199 /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF48D41D8B8C8F00388199 /* web.png */; };
+		F5EF48FC1D8B905200388199 /* ACellBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF48FB1D8B905200388199 /* ACellBook.swift */; };
+		F5EF48FE1D8BA39B00388199 /* DetailBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF48FD1D8BA39B00388199 /* DetailBooks.swift */; };
+		F5EF49021D8BB20C00388199 /* LoadURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EF49011D8BB20C00388199 /* LoadURL.swift */; };
+		F5EF490C1D8BE92F00388199 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF49091D8BE92F00388199 /* back.png */; };
+		F5EF490D1D8BE92F00388199 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF490A1D8BE92F00388199 /* forward.png */; };
+		F5EF490E1D8BE92F00388199 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF490B1D8BE92F00388199 /* reload.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5EF48961D8B899C00388199 /* DemoUIWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoUIWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EF48991D8B899C00388199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5EF489B1D8B899C00388199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F5EF489E1D8B899C00388199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5EF48A01D8B899C00388199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5EF48A31D8B899C00388199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5EF48A51D8B899C00388199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EF48AB1D8B8B3A00388199 /* ViewBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBooks.swift; sourceTree = "<group>"; };
+		F5EF48AE1D8B8C8F00388199 /* doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doc.png; sourceTree = "<group>"; };
+		F5EF48B01D8B8C8F00388199 /* coexistcrane.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = coexistcrane.docx; sourceTree = "<group>"; };
+		F5EF48B11D8B8C8F00388199 /* coexistcrane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coexistcrane.jpg; sourceTree = "<group>"; };
+		F5EF48B21D8B8C8F00388199 /* darkkisssylviaday.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = darkkisssylviaday.docx; sourceTree = "<group>"; };
+		F5EF48B31D8B8C8F00388199 /* darkkisssylviaday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darkkisssylviaday.jpg; sourceTree = "<group>"; };
+		F5EF48B41D8B8C8F00388199 /* isthislove.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = isthislove.docx; sourceTree = "<group>"; };
+		F5EF48B51D8B8C8F00388199 /* isthislove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = isthislove.jpg; sourceTree = "<group>"; };
+		F5EF48B61D8B8C8F00388199 /* lovelikethishubbard.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = lovelikethishubbard.docx; sourceTree = "<group>"; };
+		F5EF48B71D8B8C8F00388199 /* lovelikethishubbard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lovelikethishubbard.jpg; sourceTree = "<group>"; };
+		F5EF48B81D8B8C8F00388199 /* lumberlacewards.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = lumberlacewards.docx; sourceTree = "<group>"; };
+		F5EF48B91D8B8C8F00388199 /* lumberlacewards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lumberlacewards.jpg; sourceTree = "<group>"; };
+		F5EF48BB1D8B8C8F00388199 /* Lập trình iOS Objective-C.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Lập trình iOS Objective-C.html"; sourceTree = "<group>"; };
+		F5EF48BC1D8B8C8F00388199 /* Lập trình iOS Objective-C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lập trình iOS Objective-C.jpg"; sourceTree = "<group>"; };
+		F5EF48BD1D8B8C8F00388199 /* html.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = html.png; sourceTree = "<group>"; };
+		F5EF48BF1D8B8C8F00388199 /* abrieferhistory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abrieferhistory.jpg; sourceTree = "<group>"; };
+		F5EF48C01D8B8C8F00388199 /* abrieferhistory.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = abrieferhistory.pdf; sourceTree = "<group>"; };
+		F5EF48C11D8B8C8F00388199 /* aspoofonsexdonwireman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aspoofonsexdonwireman.jpg; sourceTree = "<group>"; };
+		F5EF48C21D8B8C8F00388199 /* aspoofonsexdonwireman.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = aspoofonsexdonwireman.pdf; sourceTree = "<group>"; };
+		F5EF48C31D8B8C8F00388199 /* barrysworldjenvey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barrysworldjenvey.jpg; sourceTree = "<group>"; };
+		F5EF48C41D8B8C8F00388199 /* barrysworldjenvey.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = barrysworldjenvey.pdf; sourceTree = "<group>"; };
+		F5EF48C51D8B8C8F00388199 /* foreigneduwilliam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foreigneduwilliam.jpg; sourceTree = "<group>"; };
+		F5EF48C61D8B8C8F00388199 /* foreigneduwilliam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = foreigneduwilliam.pdf; sourceTree = "<group>"; };
+		F5EF48C71D8B8C8F00388199 /* gonewithtrash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gonewithtrash.jpg; sourceTree = "<group>"; };
+		F5EF48C81D8B8C8F00388199 /* gonewithtrash.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gonewithtrash.pdf; sourceTree = "<group>"; };
+		F5EF48C91D8B8C8F00388199 /* gospelbuckydennis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gospelbuckydennis.jpg; sourceTree = "<group>"; };
+		F5EF48CA1D8B8C8F00388199 /* gospelbuckydennis.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gospelbuckydennis.pdf; sourceTree = "<group>"; };
+		F5EF48CB1D8B8C8F00388199 /* oddjobsbowling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oddjobsbowling.jpg; sourceTree = "<group>"; };
+		F5EF48CC1D8B8C8F00388199 /* oddjobsbowling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = oddjobsbowling.pdf; sourceTree = "<group>"; };
+		F5EF48CD1D8B8C8F00388199 /* oneclownshortwright.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneclownshortwright.jpg; sourceTree = "<group>"; };
+		F5EF48CE1D8B8C8F00388199 /* oneclownshortwright.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = oneclownshortwright.pdf; sourceTree = "<group>"; };
+		F5EF48CF1D8B8C8F00388199 /* questingromana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = questingromana.jpg; sourceTree = "<group>"; };
+		F5EF48D01D8B8C8F00388199 /* questingromana.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = questingromana.pdf; sourceTree = "<group>"; };
+		F5EF48D11D8B8C8F00388199 /* thedistancetravelled.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thedistancetravelled.jpg; sourceTree = "<group>"; };
+		F5EF48D21D8B8C8F00388199 /* thedistancetravelled.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = thedistancetravelled.pdf; sourceTree = "<group>"; };
+		F5EF48D31D8B8C8F00388199 /* pdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf.png; sourceTree = "<group>"; };
+		F5EF48D41D8B8C8F00388199 /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		F5EF48FB1D8B905200388199 /* ACellBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACellBook.swift; sourceTree = "<group>"; };
+		F5EF48FD1D8BA39B00388199 /* DetailBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBooks.swift; sourceTree = "<group>"; };
+		F5EF49011D8BB20C00388199 /* LoadURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadURL.swift; sourceTree = "<group>"; };
+		F5EF49091D8BE92F00388199 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		F5EF490A1D8BE92F00388199 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		F5EF490B1D8BE92F00388199 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +138,112 @@
 		F5EF48981D8B899C00388199 /* DemoUIWebView */ = {
 			isa = PBXGroup;
 			children = (
+				F5EF49001D8BB1E400388199 /* LoadURL */,
+				F5EF48FA1D8B901500388199 /* Home */,
+				F5EF48AD1D8B8C8F00388199 /* Source */,
 				F5EF48991D8B899C00388199 /* AppDelegate.swift */,
-				F5EF489B1D8B899C00388199 /* ViewController.swift */,
 				F5EF489D1D8B899C00388199 /* Main.storyboard */,
 				F5EF48A01D8B899C00388199 /* Assets.xcassets */,
 				F5EF48A21D8B899C00388199 /* LaunchScreen.storyboard */,
 				F5EF48A51D8B899C00388199 /* Info.plist */,
 			);
 			path = DemoUIWebView;
+			sourceTree = "<group>";
+		};
+		F5EF48AD1D8B8C8F00388199 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF48F91D8B8D2600388199 /* ICONS */,
+				F5EF48AF1D8B8C8F00388199 /* DOCX */,
+				F5EF48BA1D8B8C8F00388199 /* HTML */,
+				F5EF48BE1D8B8C8F00388199 /* PDF */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F5EF48AF1D8B8C8F00388199 /* DOCX */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF48B01D8B8C8F00388199 /* coexistcrane.docx */,
+				F5EF48B11D8B8C8F00388199 /* coexistcrane.jpg */,
+				F5EF48B21D8B8C8F00388199 /* darkkisssylviaday.docx */,
+				F5EF48B31D8B8C8F00388199 /* darkkisssylviaday.jpg */,
+				F5EF48B41D8B8C8F00388199 /* isthislove.docx */,
+				F5EF48B51D8B8C8F00388199 /* isthislove.jpg */,
+				F5EF48B61D8B8C8F00388199 /* lovelikethishubbard.docx */,
+				F5EF48B71D8B8C8F00388199 /* lovelikethishubbard.jpg */,
+				F5EF48B81D8B8C8F00388199 /* lumberlacewards.docx */,
+				F5EF48B91D8B8C8F00388199 /* lumberlacewards.jpg */,
+			);
+			path = DOCX;
+			sourceTree = "<group>";
+		};
+		F5EF48BA1D8B8C8F00388199 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF48BB1D8B8C8F00388199 /* Lập trình iOS Objective-C.html */,
+				F5EF48BC1D8B8C8F00388199 /* Lập trình iOS Objective-C.jpg */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		F5EF48BE1D8B8C8F00388199 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF48BF1D8B8C8F00388199 /* abrieferhistory.jpg */,
+				F5EF48C01D8B8C8F00388199 /* abrieferhistory.pdf */,
+				F5EF48C11D8B8C8F00388199 /* aspoofonsexdonwireman.jpg */,
+				F5EF48C21D8B8C8F00388199 /* aspoofonsexdonwireman.pdf */,
+				F5EF48C31D8B8C8F00388199 /* barrysworldjenvey.jpg */,
+				F5EF48C41D8B8C8F00388199 /* barrysworldjenvey.pdf */,
+				F5EF48C51D8B8C8F00388199 /* foreigneduwilliam.jpg */,
+				F5EF48C61D8B8C8F00388199 /* foreigneduwilliam.pdf */,
+				F5EF48C71D8B8C8F00388199 /* gonewithtrash.jpg */,
+				F5EF48C81D8B8C8F00388199 /* gonewithtrash.pdf */,
+				F5EF48C91D8B8C8F00388199 /* gospelbuckydennis.jpg */,
+				F5EF48CA1D8B8C8F00388199 /* gospelbuckydennis.pdf */,
+				F5EF48CB1D8B8C8F00388199 /* oddjobsbowling.jpg */,
+				F5EF48CC1D8B8C8F00388199 /* oddjobsbowling.pdf */,
+				F5EF48CD1D8B8C8F00388199 /* oneclownshortwright.jpg */,
+				F5EF48CE1D8B8C8F00388199 /* oneclownshortwright.pdf */,
+				F5EF48CF1D8B8C8F00388199 /* questingromana.jpg */,
+				F5EF48D01D8B8C8F00388199 /* questingromana.pdf */,
+				F5EF48D11D8B8C8F00388199 /* thedistancetravelled.jpg */,
+				F5EF48D21D8B8C8F00388199 /* thedistancetravelled.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		F5EF48F91D8B8D2600388199 /* ICONS */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF49091D8BE92F00388199 /* back.png */,
+				F5EF490A1D8BE92F00388199 /* forward.png */,
+				F5EF490B1D8BE92F00388199 /* reload.png */,
+				F5EF48AE1D8B8C8F00388199 /* doc.png */,
+				F5EF48BD1D8B8C8F00388199 /* html.png */,
+				F5EF48D31D8B8C8F00388199 /* pdf.png */,
+				F5EF48D41D8B8C8F00388199 /* web.png */,
+			);
+			name = ICONS;
+			sourceTree = "<group>";
+		};
+		F5EF48FA1D8B901500388199 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF48FB1D8B905200388199 /* ACellBook.swift */,
+				F5EF48AB1D8B8B3A00388199 /* ViewBooks.swift */,
+				F5EF48FD1D8BA39B00388199 /* DetailBooks.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		F5EF49001D8BB1E400388199 /* LoadURL */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF49011D8BB20C00388199 /* LoadURL.swift */,
+			);
+			name = LoadURL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +304,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EF48E21D8B8C8F00388199 /* html.png in Resources */,
+				F5EF48D61D8B8C8F00388199 /* coexistcrane.docx in Resources */,
+				F5EF48D71D8B8C8F00388199 /* coexistcrane.jpg in Resources */,
+				F5EF48E91D8B8C8F00388199 /* foreigneduwilliam.jpg in Resources */,
+				F5EF490D1D8BE92F00388199 /* forward.png in Resources */,
+				F5EF48F21D8B8C8F00388199 /* oneclownshortwright.pdf in Resources */,
+				F5EF48E81D8B8C8F00388199 /* barrysworldjenvey.pdf in Resources */,
+				F5EF48E41D8B8C8F00388199 /* abrieferhistory.pdf in Resources */,
+				F5EF48EE1D8B8C8F00388199 /* gospelbuckydennis.pdf in Resources */,
+				F5EF48D51D8B8C8F00388199 /* doc.png in Resources */,
+				F5EF48DF1D8B8C8F00388199 /* lumberlacewards.jpg in Resources */,
+				F5EF48E71D8B8C8F00388199 /* barrysworldjenvey.jpg in Resources */,
+				F5EF48ED1D8B8C8F00388199 /* gospelbuckydennis.jpg in Resources */,
+				F5EF48DC1D8B8C8F00388199 /* lovelikethishubbard.docx in Resources */,
+				F5EF48F61D8B8C8F00388199 /* thedistancetravelled.pdf in Resources */,
+				F5EF48DE1D8B8C8F00388199 /* lumberlacewards.docx in Resources */,
+				F5EF48F51D8B8C8F00388199 /* thedistancetravelled.jpg in Resources */,
+				F5EF48D81D8B8C8F00388199 /* darkkisssylviaday.docx in Resources */,
+				F5EF48F31D8B8C8F00388199 /* questingromana.jpg in Resources */,
+				F5EF48F81D8B8C8F00388199 /* web.png in Resources */,
+				F5EF48E51D8B8C8F00388199 /* aspoofonsexdonwireman.jpg in Resources */,
+				F5EF48DA1D8B8C8F00388199 /* isthislove.docx in Resources */,
+				F5EF48F11D8B8C8F00388199 /* oneclownshortwright.jpg in Resources */,
+				F5EF48EC1D8B8C8F00388199 /* gonewithtrash.pdf in Resources */,
+				F5EF48E11D8B8C8F00388199 /* Lập trình iOS Objective-C.jpg in Resources */,
+				F5EF48EB1D8B8C8F00388199 /* gonewithtrash.jpg in Resources */,
+				F5EF48F71D8B8C8F00388199 /* pdf.png in Resources */,
+				F5EF48EA1D8B8C8F00388199 /* foreigneduwilliam.pdf in Resources */,
 				F5EF48A41D8B899C00388199 /* LaunchScreen.storyboard in Resources */,
+				F5EF48E01D8B8C8F00388199 /* Lập trình iOS Objective-C.html in Resources */,
 				F5EF48A11D8B899C00388199 /* Assets.xcassets in Resources */,
+				F5EF48F01D8B8C8F00388199 /* oddjobsbowling.pdf in Resources */,
+				F5EF48F41D8B8C8F00388199 /* questingromana.pdf in Resources */,
+				F5EF48D91D8B8C8F00388199 /* darkkisssylviaday.jpg in Resources */,
+				F5EF490E1D8BE92F00388199 /* reload.png in Resources */,
+				F5EF48E61D8B8C8F00388199 /* aspoofonsexdonwireman.pdf in Resources */,
+				F5EF48DD1D8B8C8F00388199 /* lovelikethishubbard.jpg in Resources */,
 				F5EF489F1D8B899C00388199 /* Main.storyboard in Resources */,
+				F5EF490C1D8BE92F00388199 /* back.png in Resources */,
+				F5EF48E31D8B8C8F00388199 /* abrieferhistory.jpg in Resources */,
+				F5EF48EF1D8B8C8F00388199 /* oddjobsbowling.jpg in Resources */,
+				F5EF48DB1D8B8C8F00388199 /* isthislove.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +356,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EF489C1D8B899C00388199 /* ViewController.swift in Sources */,
+				F5EF48AC1D8B8B3A00388199 /* ViewBooks.swift in Sources */,
+				F5EF48FC1D8B905200388199 /* ACellBook.swift in Sources */,
+				F5EF49021D8BB20C00388199 /* LoadURL.swift in Sources */,
+				F5EF48FE1D8BA39B00388199 /* DetailBooks.swift in Sources */,
 				F5EF489A1D8B899C00388199 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
